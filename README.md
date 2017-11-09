@@ -1,1 +1,2 @@
-# Crawler  Python 2.7 Celery. Parser Sites shops for shedule 
+# Crawler  Python 2.7 Celery Redis. 
+this spider parses the sites of shops on schedule
