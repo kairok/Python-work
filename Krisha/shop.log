@@ -1,0 +1,14 @@
+2017-05-12 15:51:12.316 INFO in 'KrishaShop' at line 79: Продажа торговых точек в Алматы: купить магазин, бутик – объявления на Крыше
+2017-05-12 15:52:29.67 ERROR in 'KrishaShop' at line 192: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Parsers/KrishaShop.py", line 180, in <module>
+    room = {'entity':'shop','date_srez':date_srez,'description':description,'zalog':zalog,'phone':phone,
+  File "/home/kai/WorkPython/Big_Data/Parsers/KrishaShop.py", line 180, in <module>
+    room = {'entity':'shop','date_srez':date_srez,'description':description,'zalog':zalog,'phone':phone,
+  File "/home/kai/pycharm/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 609, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "/home/kai/pycharm/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 80, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "/home/kai/pycharm/helpers/pydev/pydevd.py", line 763, in do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt

@@ -1,0 +1,14 @@
+2017-05-12 11:46:34.854 INFO in 'KrishaBuildings' at line 81: Продажа зданий в Алматы: купить, продать сооружение – объявления на Крыше
+2017-05-12 11:47:32.70 ERROR in 'KrishaBuildings' at line 192: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Parsers/KrishaBuildings.py", line 180, in <module>
+    room = {'entity':'building','description':description,'phone':phone,'date_srez':date_srez,'contractid': contractid,
+  File "/home/kai/WorkPython/Big_Data/Parsers/KrishaBuildings.py", line 180, in <module>
+    room = {'entity':'building','description':description,'phone':phone,'date_srez':date_srez,'contractid': contractid,
+  File "/home/kai/pycharm/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 609, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "/home/kai/pycharm/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 80, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "/home/kai/pycharm/helpers/pydev/pydevd.py", line 763, in do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt

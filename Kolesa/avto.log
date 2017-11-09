@@ -1,0 +1,191 @@
+2017-06-06 10:08:34.161 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса
+2017-06-06 10:09:33.617 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 969: Element script embeds close tag (line 969)
+2017-06-06 10:10:04.822 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1067: Element script embeds close tag (line 1067)
+2017-06-06 10:10:15.41 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 2
+2017-06-06 10:10:52.594 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 3
+2017-06-06 10:11:23.532 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1124: Element script embeds close tag (line 1124)
+2017-06-06 10:11:37.94 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 4
+2017-06-06 10:11:58.834 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 967: Element script embeds close tag (line 967)
+2017-06-06 10:12:21.716 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 5
+2017-06-06 10:12:59.549 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 6
+2017-06-06 10:13:37.828 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 7
+2017-06-06 10:14:03.927 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1041: Element script embeds close tag (line 1041)
+2017-06-06 10:14:15.241 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1001: Element script embeds close tag (line 1001)
+2017-06-06 10:14:21.527 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 8
+2017-06-06 10:14:28.517 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1024: Element script embeds close tag (line 1024)
+2017-06-06 10:14:34.820 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1024: Element script embeds close tag (line 1024)
+2017-06-06 10:14:49.346 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1121: Element script embeds close tag (line 1121)
+2017-06-06 10:15:08.651 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1052: Element script embeds close tag (line 1052)
+2017-06-06 10:15:22.246 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 9
+2017-06-06 10:15:46.976 ERROR in 'Avto' at line 207: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Kolesa/Avto.py", line 101, in <module>
+    parsed_body = html.fromstring(response.content)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 876, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/kai/Social/local/lib/python2.7/site-packages/lxml/html/__init__.py", line 762, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "src/lxml/lxml.etree.pyx", line 3213, in lxml.etree.fromstring (src/lxml/lxml.etree.c:79010)
+  File "src/lxml/parser.pxi", line 1848, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:118341)
+  File "src/lxml/parser.pxi", line 1736, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:117021)
+  File "src/lxml/parser.pxi", line 1102, in lxml.etree._BaseParser._parseDoc (src/lxml/lxml.etree.c:111265)
+  File "src/lxml/parser.pxi", line 595, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:105109)
+  File "src/lxml/parser.pxi", line 706, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:106817)
+  File "src/lxml/parser.pxi", line 644, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:105874)
+XMLSyntaxError: line 1108: Element script embeds close tag (line 1108)
+2017-06-06 10:16:10.348 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 10
+2017-06-06 10:16:50.926 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 11
+2017-06-06 10:17:27.704 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 12
+2017-06-06 10:18:02.619 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 13
+2017-06-06 10:18:41.799 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 14
+2017-06-06 10:19:16.684 INFO in 'Avto' at line 85: Купить автомобиль в Алматы. Продажа машин в Алматы — Колёса, страница 15

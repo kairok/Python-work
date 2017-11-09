@@ -1,0 +1,14 @@
+2017-05-11 17:42:03.638 INFO in 'KrishaHouse' at line 81: Продажа домов в Алматы: купить, продать дом – объявления на Крыше
+2017-05-11 17:42:45.175 ERROR in 'KrishaHouse' at line 196: exception message
+Traceback (most recent call last):
+  File "/home/kai/WorkPython/Big_Data/Parsers/KrishaHouse.py", line 182, in <module>
+    room = {'entity': 'apartments', 'date_srez': date_srez, 'phone': phone, 'description': description,
+  File "/home/kai/WorkPython/Big_Data/Parsers/KrishaHouse.py", line 182, in <module>
+    room = {'entity': 'apartments', 'date_srez': date_srez, 'phone': phone, 'description': description,
+  File "/home/kai/pycharm/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 609, in trace_dispatch
+    self.do_wait_suspend(thread, frame, event, arg)
+  File "/home/kai/pycharm/helpers/pydev/_pydevd_bundle/pydevd_frame.py", line 80, in do_wait_suspend
+    self._args[0].do_wait_suspend(*args, **kwargs)
+  File "/home/kai/pycharm/helpers/pydev/pydevd.py", line 763, in do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
